@@ -55,6 +55,8 @@ df["total_score"] = df["math_score"] + df["reading_score"] + df["writing_score"]
 # Create average score column
 df["average_score"] = df["total_score"] / 3
 
+df["average_score"] = df["average_score"].round(2)
+
 
 # ================================
 # DROPOUT RISK LABEL CREATION
