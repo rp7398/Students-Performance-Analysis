@@ -78,7 +78,7 @@ All visualizations are stored inside the **visuals/** folder:
 Student-Performance-Analysis/
 │
 ├── notebook/
-│   └── Student_Performance_Analysis.ipynb
+│   └── Student_Performance_Analysis.ipynb/main.py
 │
 ├── data/
 │   └── StudentsPerformance.csv
